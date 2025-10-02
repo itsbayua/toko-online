@@ -1,4 +1,5 @@
 export interface ProductCardProps {
+    id: string;
     image: string;
     title: string;
     price: number;
@@ -22,4 +23,6 @@ export interface Product {
     size?: string[];
     badge?: "sale" | "new" | "featured";
     dateAdded: Date;
+    description: string;
+    stock: number;
 }

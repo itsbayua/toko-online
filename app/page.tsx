@@ -4,6 +4,7 @@ import {
     categories,
     discountedProducts,
     featuredProducts,
+    products,
 } from "@/lib/placeholder-data";
 import Header from "@/components/header";
 import ProductCard from "@/components/product-card";
@@ -67,7 +68,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {featuredProducts.map((product, index) => (
+                    {products.slice(0, 4).map((product, index) => (
                         <ProductCard key={index} {...product} />
                     ))}
                 </div>
@@ -109,7 +110,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                    {discountedProducts.map((product, index) => (
+                    {products.slice(0, 2).map((product, index) => (
                         <ProductCard key={index} {...product} />
                     ))}
                 </div>

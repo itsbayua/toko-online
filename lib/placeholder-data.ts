@@ -88,8 +88,11 @@ export const products: Product[] = [
         originalPrice: 299.99,
         category: "Audio",
         size: ["One Size"],
+        description:
+            "Headphones nirkabel premium dengan kualitas suara luar biasa dan peredam bising aktif. Nyaman untuk penggunaan sepanjang hari.",
         badge: "sale",
         dateAdded: new Date("2025-01-15"),
+        stock: 50,
     },
     {
         id: "prod-02",
@@ -98,8 +101,11 @@ export const products: Product[] = [
         price: 149.99,
         category: "Bags",
         size: ["Medium", "Large"],
+        description:
+            "Ransel perjalanan stylish dan tahan lama yang terbuat dari kulit asli. Ideal untuk perjalanan singkat dan penggunaan sehari-hari.",
         badge: "new",
         dateAdded: new Date("2025-02-01"),
+        stock: 75,
     },
     {
         id: "prod-03",
@@ -109,8 +115,11 @@ export const products: Product[] = [
         originalPrice: 349.99,
         category: "Accessories",
         size: ["Small", "Medium", "Large"],
+        description:
+            "Jam tangan dengan desain minimalis klasik yang elegan. Terbuat dari bahan stainless steel berkualitas tinggi.",
         badge: "sale",
         dateAdded: new Date("2025-01-20"),
+        stock: 30,
     },
     {
         id: "prod-04",
@@ -119,8 +128,11 @@ export const products: Product[] = [
         price: 89.99,
         category: "Fashion",
         size: ["One Size"],
+        description:
+            "Kacamata hitam desainer dengan perlindungan UV 400. Tambahkan sentuhan gaya pada penampilan Anda.",
         badge: "featured",
         dateAdded: new Date("2025-01-25"),
+        stock: 120,
     },
     {
         id: "prod-05",
@@ -130,8 +142,11 @@ export const products: Product[] = [
         originalPrice: 999.99,
         category: "Electronics",
         size: ["128GB", "256GB", "512GB"],
+        description:
+            "Smartphone mutakhir dengan performa cepat, kamera profesional, dan daya tahan baterai yang lama.",
         badge: "sale",
         dateAdded: new Date("2025-01-10"),
+        stock: 25,
     },
     {
         id: "prod-06",
@@ -141,8 +156,11 @@ export const products: Product[] = [
         originalPrice: 1599.99,
         category: "Tech",
         size: ["13 inch", "15 inch"],
+        description:
+            "Laptop ringan dan tipis yang sempurna untuk portabilitas. Ideal untuk pekerjaan dan hiburan saat bepergian.",
         badge: "sale",
         dateAdded: new Date("2025-01-18"),
+        stock: 45,
     },
     {
         id: "prod-07",
@@ -152,8 +170,11 @@ export const products: Product[] = [
         originalPrice: 319.99,
         category: "Audio",
         size: ["One Size"],
+        description:
+            "Headphones nirkabel profesional dengan kualitas audio superior dan daya tahan baterai hingga 30 jam.",
         badge: "sale",
         dateAdded: new Date("2025-02-15"),
+        stock: 60,
     },
     {
         id: "prod-08",
@@ -162,8 +183,11 @@ export const products: Product[] = [
         price: 120.0,
         category: "Bags",
         size: ["Medium"],
+        description:
+            "Ransel serbaguna dengan banyak kompartemen, cocok untuk penggunaan harian di kota. Desain modern dan praktis.",
         badge: "new",
         dateAdded: new Date("2025-03-01"),
+        stock: 85,
     },
     {
         id: "prod-09",
@@ -173,8 +197,11 @@ export const products: Product[] = [
         originalPrice: 650.0,
         category: "Accessories",
         size: ["Medium"],
+        description:
+            "Jam tangan mewah dengan casing baja anti karat dan tali kulit. Tahan air hingga kedalaman 50 meter.",
         badge: "sale",
         dateAdded: new Date("2025-02-20"),
+        stock: 20,
     },
     {
         id: "prod-10",
@@ -183,8 +210,11 @@ export const products: Product[] = [
         price: 75.0,
         category: "Fashion",
         size: ["One Size"],
+        description:
+            "Kacamata hitam bergaya retro dengan bingkai tebal. Sempurna untuk tampilan kasual dan vintage.",
         badge: "featured",
         dateAdded: new Date("2025-02-25"),
+        stock: 90,
     },
     {
         id: "prod-11",
@@ -193,8 +223,11 @@ export const products: Product[] = [
         price: 599.99,
         category: "Electronics",
         size: ["128GB"],
+        description:
+            "Smartphone ringkas dan powerful. Ideal bagi mereka yang mencari kinerja tinggi dalam ukuran yang lebih kecil.",
         badge: "new",
         dateAdded: new Date("2025-03-10"),
+        stock: 40,
     },
     {
         id: "prod-12",
@@ -204,8 +237,11 @@ export const products: Product[] = [
         originalPrice: 2099.99,
         category: "Tech",
         size: ["16 inch"],
+        description:
+            "Laptop gaming berperforma tinggi dengan kartu grafis terbaru, layar refresh rate tinggi, dan sistem pendingin canggih.",
         badge: "sale",
         dateAdded: new Date("2025-03-18"),
+        stock: 15,
     },
     {
         id: "prod-13",
@@ -214,8 +250,11 @@ export const products: Product[] = [
         price: 249.99,
         category: "Audio",
         size: ["One Size"],
+        description:
+            "Headphones dengan teknologi peredam bising terbaik, ideal untuk fokus bekerja atau mendengarkan musik tanpa gangguan.",
         badge: "new",
         dateAdded: new Date("2025-04-01"),
+        stock: 70,
     },
     {
         id: "prod-14",
@@ -224,8 +263,11 @@ export const products: Product[] = [
         price: 180.0,
         category: "Bags",
         size: ["Large"],
+        description:
+            "Ransel mendaki gunung yang tahan air, dirancang untuk petualangan. Muat banyak barang dan sangat nyaman di punggung.",
         badge: "featured",
         dateAdded: new Date("2025-04-05"),
+        stock: 55,
     },
     {
         id: "prod-15",
@@ -235,8 +277,11 @@ export const products: Product[] = [
         originalPrice: 400.0,
         category: "Accessories",
         size: ["One Size"],
+        description:
+            "Jam tangan pintar dengan pelacak kebugaran, monitor detak jantung, dan GPS terintegrasi. Tahan air dan tahan banting.",
         badge: "sale",
         dateAdded: new Date("2025-04-10"),
+        stock: 65,
     },
     {
         id: "prod-16",
@@ -245,8 +290,11 @@ export const products: Product[] = [
         price: 110.0,
         category: "Fashion",
         size: ["One Size"],
+        description:
+            "Kacamata aviator dengan lensa polarized untuk mengurangi silau. Tampilan klasik yang tidak pernah ketinggalan zaman.",
         badge: "new",
         dateAdded: new Date("2025-04-15"),
+        stock: 80,
     },
     {
         id: "prod-17",
@@ -255,8 +303,11 @@ export const products: Product[] = [
         price: 299.99,
         category: "Electronics",
         size: ["64GB"],
+        description:
+            "Smartphone terjangkau dengan fitur lengkap, cocok untuk penggunaan dasar seperti media sosial, telepon, dan browsing.",
         badge: "featured",
         dateAdded: new Date("2025-04-20"),
+        stock: 150,
     },
     {
         id: "prod-18",
@@ -266,8 +317,11 @@ export const products: Product[] = [
         originalPrice: 1600.0,
         category: "Tech",
         size: ["14 inch"],
+        description:
+            "Laptop fleksibel yang dapat diubah menjadi tablet. Ideal untuk presentasi dan pekerjaan kreatif.",
         badge: "sale",
         dateAdded: new Date("2025-04-25"),
+        stock: 35,
     },
     {
         id: "prod-19",
@@ -276,8 +330,11 @@ export const products: Product[] = [
         price: 89.99,
         category: "Audio",
         size: ["One Size"],
+        description:
+            "Earbud nirkabel dengan casing pengisi daya portabel. Suara jernih dan koneksi stabil.",
         badge: "new",
         dateAdded: new Date("2025-05-01"),
+        stock: 100,
     },
     {
         id: "prod-20",
@@ -286,8 +343,11 @@ export const products: Product[] = [
         price: 95.0,
         category: "Bags",
         size: ["Medium"],
+        description:
+            "Ransel khusus laptop dengan bantalan tebal untuk melindungi perangkat Anda. Desain ramping dan profesional.",
         badge: "sale",
         dateAdded: new Date("2025-05-05"),
+        stock: 40,
     },
     {
         id: "prod-21",
@@ -296,8 +356,11 @@ export const products: Product[] = [
         price: 120.0,
         category: "Accessories",
         size: ["Medium"],
+        description:
+            "Jam tangan kasual dengan tali kulit asli yang nyaman dipakai. Cocok untuk semua acara.",
         badge: "new",
         dateAdded: new Date("2025-05-10"),
+        stock: 55,
     },
     {
         id: "prod-22",
@@ -306,8 +369,11 @@ export const products: Product[] = [
         price: 65.0,
         category: "Fashion",
         size: ["One Size"],
+        description:
+            "Kacamata hitam ringan dan tahan lama, ideal untuk aktivitas olahraga. Anti-slip agar tetap nyaman saat bergerak.",
         badge: "featured",
         dateAdded: new Date("2025-05-15"),
+        stock: 75,
     },
     {
         id: "prod-23",
@@ -317,8 +383,11 @@ export const products: Product[] = [
         originalPrice: 1299.99,
         category: "Electronics",
         size: ["512GB", "1TB"],
+        description:
+            "Smartphone unggulan dengan spesifikasi tertinggi di pasaran. Performa luar biasa untuk multitasking dan gaming.",
         badge: "sale",
         dateAdded: new Date("2025-05-20"),
+        stock: 20,
     },
     {
         id: "prod-24",
@@ -327,7 +396,10 @@ export const products: Product[] = [
         price: 2199.99,
         category: "Tech",
         size: ["17 inch"],
+        description:
+            "Laptop berukuran besar dengan performa setara desktop. Ideal untuk editing video, rendering, dan desain grafis.",
         badge: "new",
         dateAdded: new Date("2025-05-25"),
+        stock: 10,
     },
 ];
