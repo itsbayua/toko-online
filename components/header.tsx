@@ -1,6 +1,7 @@
 import { Menu, Search, ShoppingCart, User } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
+import Link from "next/link";
 
 export default function Header() {
     return (
@@ -16,29 +17,32 @@ export default function Header() {
                             <Menu className="h-5 w-5" />
                         </Button>
 
-                        <h1 className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
+                        <Link
+                            href={"/"}
+                            className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent"
+                        >
                             ShopHub
-                        </h1>
+                        </Link>
 
                         <nav className="hidden md:flex items-center gap-6">
-                            <a
-                                href="#"
+                            <Link
+                                href="/"
                                 className="text-sm font-medium text-foreground hover:text-primary transition-colors"
                             >
-                                New Arrivals
-                            </a>
-                            <a
-                                href="#"
+                                Home
+                            </Link>
+                            <Link
+                                href={"/products"}
                                 className="text-sm font-medium text-foreground hover:text-primary transition-colors"
                             >
-                                Categories
-                            </a>
-                            <a
+                                All Products
+                            </Link>
+                            <Link
                                 href="#"
                                 className="text-sm font-medium text-foreground hover:text-primary transition-colors"
                             >
                                 Sale
-                            </a>
+                            </Link>
                         </nav>
                     </div>
 
